@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(32, 33, 64);
+}
+
+#skill-container {
+  color: white;
+  margin: auto;
+  width: 60%;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+#add-skill,
+#view-skills,
+#fetch-skill {
+  width: 200px;
+  color: white;
+  background-color: rgb(12, 12, 21);
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#programer-skill {
+  width: 500px;
+  color: white;
+  background-color: rgb(12, 12, 21);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+h2 {
+  text-align: start;
+  color: white;
+  padding: 30px 0 30px 0;
+}
+.skills-header {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  border-bottom: 1px solid grey;
+}
+
+.skill-row {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+}
+
+.delete-btn {
+  color: rgb(113, 113, 247);
+  border: none;
+  background-color: rgb(32, 33, 64);
+}
+.skill-add-container {
+  margin: auto;
+  padding-top: 5%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
